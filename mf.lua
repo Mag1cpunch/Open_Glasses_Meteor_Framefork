@@ -9,6 +9,7 @@ local r = tonumber(args[4])
 
 g.removeAll()
 
+-- Define the check function
 local function check(x, y, z, r)
   return ((x - xs) * (x - xs)) + ((y - ys) * (y - ys)) + ((z - zs) * (z - zs)) <= (r * r)
 end
